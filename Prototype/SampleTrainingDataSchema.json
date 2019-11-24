@@ -1,0 +1,27 @@
+[
+	{
+		"columnName": "sepal_length",
+		"dataType": "numerical",
+		"isLabelColumn": false
+	},
+	{
+		"columnName": "sepal_width",
+		"dataType": "numerical",
+		"isLabelColumn": false
+	},
+	{
+		"columnName": "petal_length",
+		"dataType": "numerical",
+		"isLabelColumn": false
+	},
+	{
+		"columnName": "petal_width",
+		"dataType": "numerical",
+		"isLabelColumn": false
+	},
+	{
+		"columnName": "class",
+		"dataType": "categorical",
+		"isLabelColumn": true
+	}
+]

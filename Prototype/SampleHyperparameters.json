@@ -1,0 +1,11 @@
+{
+	"numHiddenLayers": 1,
+	"hiddenLayers": [10],
+	"activationFunction": "relu",
+	"solver": "sgd",
+	"batchSize": null,
+	"learningRateMethod": "constant",
+	"initialLearningRate": 0.01,
+	"maxNumEpochs": 500,
+	"earlyStopping": false
+}

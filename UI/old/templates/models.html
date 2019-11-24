@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ML Models</title>
+    <link rel="stylesheet" type="text/css" href="../static/content/indexstyle.css"/> 
+	<script type="text/javascript">
+		
+	</script>
+</head>
+<body>
+	<img id="pes"  src="../static/images/pes.jpg" width="100px" height="60px">
+    <img id="ccbd"  src="../static/images/ccbd.png" width="100px" height="60px">
+
+    <div>
+    	<center><p><h1>Specify basic details of your ML model</h1></p></center>
+    </div>
+
+    <center>
+        Selected ML Model &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input type="text" id="selected" name="selected" size="40">
+        <br>
+        <br>
+        <br>
+        <br>
+        Model Name &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input type="text" id="m_name" name="m_name" size="40">
+        <br>
+        <br>
+        <br>
+        <br>
+        Description &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <textarea rows="10" cols="40" id="desc"></textarea>
+    
+    </center>
+    <br>
+    <br>
+    <button style="border-radius: 8px;font-size: 20px;background-color: #008CBA;text-decoration:none;padding: 12px 28px;">
+        <a id="next" href="{{ url_for('.main5', _anchor='/datainput')}}" style="text-decoration: none" target="_blank" >Next</a>
+    </button>
+</body>
+</html>

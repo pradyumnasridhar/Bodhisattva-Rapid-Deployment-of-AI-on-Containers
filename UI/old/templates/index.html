@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="../static/content/indexstyle.css"/>  
+  <script type="text/javascript" src="/static/scripts/indexscript.js">  
+  </script>
+ {% block scripts %}{% endblock %} 
+</head>
+<body>
+  
+  <img id="pes"  src="../static/images/pes.jpg" width="100px" height="60px">
+  <img id="ccbd"  src="../static/images/ccbd.png" width="100px" height="60px">
+
+  <button class = "u" onclick="login()">Login</button>
+  <button class = "u1" onclick="usersignup()">SignUp</button>
+  <div>
+    <center style="font-family: roboto; "><h2>Welcome to Bodhisattva</h2></center> 
+  </div> 
+     
+  <center>
+  
+          <div style="background-color: lightblue; width: 230px; height: 100px; float: left; margin-left: 20%; margin-top: 200px;">
+            <center><h3 style="padding: 15px;"><a href="{{ url_for('.main3', _anchor='/typesofmodels') }}" style="text-decoration: none;">Create a new model</a></h3></center>
+          </div>  
+     
+          <div style="background-color: lightblue; width: 230px; height: 100px; float: left; margin-left: 20%; margin-top: 200px;">
+            <center><h3 style="padding: 10px;">Choose to deploy an existing model</h3></center>
+          </div>  
+          <div id = "Lform" style="top: 200px; position: absolute; ">
+          </div>
+  </center>
+</body>
+</html> 

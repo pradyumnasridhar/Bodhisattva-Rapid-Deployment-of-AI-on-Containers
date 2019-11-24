@@ -1,0 +1,17 @@
+{
+	"hyperparameters": [
+		{
+			"name": "epochs",
+			"dataType": "number"
+		},
+		{
+			"name": "k",
+			"dataType": "number",
+			"description": "Value of k for k-means"
+		},
+		{
+			"name": "accuracyThreshold",
+			"dataType": "number"
+		}
+	]
+}

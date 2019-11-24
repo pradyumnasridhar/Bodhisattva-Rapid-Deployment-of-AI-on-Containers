@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Data Input</title>
+  <link rel="stylesheet" type="text/css" href="../static/content/indexstyle.css"/> 
+  <!--<script type="text/javascript" src="../static/scripts/datainput.js">-->
+    
+  </script>
+</head>
+<body>
+    <img id="pes"  src="../static/images/pes.jpg" width="100px" height="60px">
+    <img id="ccbd"  src="../static/images/ccbd.png" width="100px" height="60px">
+
+    <div>
+      <center><p><h1>Specify training data and related options</h1></p></center>
+    </div>
+    <br>
+    <br>
+    <center>
+        Training Data - Source &nbsp &nbsp &nbsp  <input type="text" name="inputdata" accept=".json" size="40">
+        <br>
+          <center><b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp OR</b></center>
+        <br>
+        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp 
+        <input type="url" name="inputurl" placeholder="Specify URL for data source" size="40">
+        <hr>
+        <br>
+        Data processing options &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+        <div style=" width: 800px; margin-left: 200px; ">
+          <input type="checkbox" name="dataprocessing" id="shuffledata">Shuffle data
+        <br>
+          <input type="checkbox" name="dataprocessing" id="split" style=" margin-left: 140px;">Split data for training and testing
+        <br>
+          <input type="checkbox" name="dataprocessing" id="onehot" style=" margin-left: 171px;">One-hot encoding for categorical data
+        <br>
+          <input type="checkbox" name="dataprocessing" id="pca" style=" margin-left: 330px;">Feature transformation - PCA (Principal Component Analysis)
+        <br>
+        </div>
+        <br>
+        <hr>
+         Training Data - Schema  &nbsp &nbsp &nbsp  <input type="file" name="schema" accept=".json" size="40">
+        <br>
+          <center><b>OR</b></center>
+        <br>
+
+    </center>
+    
+    <br>
+    <br>
+       <button style="border-radius: 8px;font-size: 20px;background-color: #008CBA;text-decoration:none;padding: 12px 28px; " onclick="send()">
+        <a href="{{url_for('.main6',_anchor='/getjsondata')}}" style="text-decoration: none" target="_blank" >Next</a>
+    </button>
+</body>
+</html>

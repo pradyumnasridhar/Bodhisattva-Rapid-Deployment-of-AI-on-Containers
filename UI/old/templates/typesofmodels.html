@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ML Models</title>
+    <link rel="stylesheet" type="text/css" href="../static/content/indexstyle.css"/> 
+	<script type="text/javascript" src="../static/scripts/typesofmodels.js">
+        
+	</script>
+</head>
+<body>
+	<img id="pes"  src="../static/images/pes.jpg" width="100px" height="60px">
+    <img id="ccbd"  src="../static/images/ccbd.png" width="100px" height="60px">
+
+    <div>
+        <center><p><h1>Available Basic Models</h1></p></center>
+    </div>
+
+    <center>
+    <div id="first" onclick="chose()" style="width:350px; height:100px; background-color: lightblue ; color: white; padding-top: 20px;">
+    	<center><h2>Multi-layer Neural Networks</h2></center>
+    </div>
+    <br>
+    <br>
+    <br>
+    
+    <div id="second" style="width:350px; height:100px; background-color: lightblue; color: white; padding-top: 10px;" onclick="chose2()">
+    	<center><h2>SVM Classifier</h2></center>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="third" onclick="chose3()" style="width:350px; height:100px; background-color: lightblue; color: white; padding-top: 10px;">
+        <center><h2>K-Means Clustering</h2></center>
+    </div>
+    </center>
+    <br>
+    <br>
+    <button style="border-radius: 8px;font-size: 20px;background-color: #008CBA;text-decoration:none;padding: 12px 28px; ">
+        <a id="next" href="{{ url_for('.main2', _anchor='/models')}}" style="text-decoration: none" target="_blank" >Next</a>
+    </button>
+    
+</body>
+</html>

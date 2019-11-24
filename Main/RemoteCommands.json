@@ -1,0 +1,14 @@
+{
+	"MakeItRain": [
+		"apt-get install git -y",
+		"git clone https://dil_h2o:AmereinfinitY83gitlab@gitlab.com/s-s-rao/Bodhisattva.git &&",
+		"cd ./Bodhisattva/Code/Main/",
+		"sh ./Setup/Setup.sh"
+	],
+	"JustDrizzling": [
+		"cd ./Bodhisattva",
+		"git pull https://dil_h2o:AmereinfinitY83gitlab@gitlab.com/s-s-rao/Bodhisattva.git &&",
+		"cd ./Code/Main/",
+		"sh ./Setup/Setup.sh"
+	]
+}

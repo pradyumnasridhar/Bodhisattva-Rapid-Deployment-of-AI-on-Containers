@@ -1,0 +1,29 @@
+#pes {
+	position: relative;
+    top: 0px;
+    right: 0px;
+}
+
+#ccbd {
+	position: absolute;
+    top: 0px;
+    right:0px;
+}
+
+.body {
+	background-color: blue;
+}
+
+.u {
+	position: absolute;
+	top: 100px;
+	left: 0px;
+	margin-right: 100px;
+}
+
+.u1 {
+	position: absolute;
+	top: 100px;
+	margin-left: 0px;
+
+}
